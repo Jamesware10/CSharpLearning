@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InputAndOutputBasics
+namespace ConsoleBasics
 {
     /// <summary>
     /// The purpose of this class is to displaying information in 

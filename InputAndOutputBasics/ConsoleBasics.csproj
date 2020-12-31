@@ -6,11 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Program.cs" />
+    <Compile Remove="InputAndOutputBasics.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Program.cs" />
+    <None Include="InputAndOutputBasics.cs" />
   </ItemGroup>
 
 </Project>
