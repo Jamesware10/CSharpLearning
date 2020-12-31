@@ -36,7 +36,7 @@ namespace ConditionStatementsBasics
                 Console.WriteLine(" ");
             }
 
-            Console.WriteLine(" ");
+            Console.WriteLine("<--------------------------------------------------------------------->");
 
             //<!--------------------Second section-------------------------->
 
