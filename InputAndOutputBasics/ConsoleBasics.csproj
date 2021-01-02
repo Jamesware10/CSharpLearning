@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="InputAndOutputBasics.cs" />
+    <None Include="ConsoleBasics.cs" />
   </ItemGroup>
 
 </Project>
