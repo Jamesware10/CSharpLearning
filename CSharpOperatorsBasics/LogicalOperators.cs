@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharpOperatorsBasics
-{
-    class LogicalOperators
-    {
-        static void Main(string[] args)
-        {
+namespace CSharpOperatorsBasics {
+    class LogicalOperators {
+        static void Main(string[] args) {
             //Logical Operators check a condition for true or false
             int x = 8, y = 10;
 

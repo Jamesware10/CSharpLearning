@@ -1,11 +1,10 @@
 ﻿using System;
 
-namespace StringManipulationBasics
-{
-    internal class MethodsAndProperties
-    {
-        private static void Main(string[] args)
-        {
+namespace StringManipulationBasics {
+
+    internal class MethodsAndProperties {
+
+        private static void Main(string[] args) {
             //A string contains an array of chars, string literals are always surrounded by double quote
             string example = "This is a string";
 

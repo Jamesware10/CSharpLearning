@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StringManipulationBasics
-{
-    class SpecialCharacters
-    {
-        static void Main(string[] args)
-        {
+namespace StringManipulationBasics {
+    class SpecialCharacters {
+        static void Main(string[] args) {
             //Escape characters, prints double quotes, single quotes and forward slashes without confusing C#
             //     \" prints double quote - '"'
             //     \' prints apostrophe - '''

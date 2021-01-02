@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace ConsoleBasics
-{
-    class Customization
-    {
+namespace ConsoleBasics {
 
-        static void Main(string[] args)
-        {
+    internal class Customization {
+
+        private static void Main(string[] args) {
             //There are a few properties of the Console that can be customized manually
 
             //change Console window title
@@ -58,6 +54,5 @@ namespace ConsoleBasics
             Console.WriteLine("Press enter to close...");
             Console.ReadLine();
         }
-        
     }
 }

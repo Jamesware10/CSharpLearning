@@ -6,10 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="MethodsAndProperties.cs" />
     <Compile Remove="SpecialCharacters.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="MethodsAndProperties.cs" />
     <None Include="SpecialCharacters.cs" />
   </ItemGroup>
 

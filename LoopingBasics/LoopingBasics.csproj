@@ -6,11 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="IfStatements.cs" />
+    <Compile Remove="WhileLoops.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="IfStatements.cs" />
+    <None Include="WhileLoops.cs" />
   </ItemGroup>
 
 </Project>

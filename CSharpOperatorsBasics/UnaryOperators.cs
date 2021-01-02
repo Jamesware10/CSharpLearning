@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharpOperatorsBasics
-{
-    class UnaryOperators
-    {
-        static void Main(string[] args)
-        {
+namespace CSharpOperatorsBasics {
+    class UnaryOperators {
+        static void Main(string[] args) {
             //Unary operators perform operations on a single value at a time
 
             //Pre-increment operators
@@ -24,7 +21,6 @@ namespace CSharpOperatorsBasics
             int m = 3;
             m--;            // assigns old value then takes 1 (post-decrementing)
 
-
             //Unary operators Console showcase
             int num1 = 5;
             int num2 = 5;
@@ -38,8 +34,7 @@ namespace CSharpOperatorsBasics
             //IMPORTANT
             Console.WriteLine("NOTE: that in the end num2++ will be equal to 6");
 
-
-             Console.WriteLine(" ");     //spacing
+            Console.WriteLine(" ");     //spacing
 
             //prevents Console from closing until user presses enter key
             Console.WriteLine("Press enter to close...");

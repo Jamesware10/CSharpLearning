@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharpOperatorsBasics
-{
-    class ComparisonOperators
-    {
-        static void Main(string[] args)
-        {
+namespace CSharpOperatorsBasics {
+    class ComparisonOperators {
+        static void Main(string[] args) {
             //Comparsion operators compare values
 
             //Declares and intiaizalize variables
@@ -58,6 +55,5 @@ namespace CSharpOperatorsBasics
             Console.WriteLine("Press enter to close...");
             Console.ReadLine();
         }
-        
     }
 }
