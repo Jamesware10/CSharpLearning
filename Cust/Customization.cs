@@ -4,6 +4,10 @@ namespace ConsoleBasics {
 
     internal class Customization {
 
+        /// <summary>
+        /// Demonstrates how a few basic properties of the console can be modified
+        /// </summary>
+        /// <param name="args"></param>
         private static void Main(string[] args) {
             //There are a few properties of the Console that can be customized manually
 

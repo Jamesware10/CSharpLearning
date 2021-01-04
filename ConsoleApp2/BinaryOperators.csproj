@@ -6,8 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="InputAndOutputBasics.cs" />
-    <Compile Remove="Program.cs" />
+    <Compile Remove="BinaryOperators.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="BinaryOperators.cs" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StringManipulationBasics {
+namespace MethodsAndProperties {
 
     internal class MethodsAndProperties {
 

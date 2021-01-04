@@ -6,8 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="InputAndOutputBasics.cs" />
-    <Compile Remove="Program.cs" />
+    <Compile Remove="ComparisonOperators.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ComparisonOperators.cs" />
   </ItemGroup>
 
 </Project>

@@ -2,8 +2,14 @@
 using System.Linq;
 
 namespace ArraysBasics {
-    class Program {
-        static void Main(string[] args) {
+
+    /// <summary>
+    /// Explains what Arrays are and some demonstrates its use cases. A few useful methods
+    /// and properties also explained and demostrated as well
+    /// </summary>
+    internal class Program {
+
+        private static void Main(string[] args) {
             //Arrays are a special type that holds a collection of values
 
             //<-----------------------------------MAKING ARRAYS---------------------------------->
@@ -15,11 +21,10 @@ namespace ArraysBasics {
             int[] numbers = { 12, 4, 376, 9, 24, 454, 283, 9230, 56 };
 
             //array of strings
-            string[] progLangs = { "Java", "C#", "JavaScript","Python"};
+            string[] progLangs = { "Java", "C#", "JavaScript", "Python" };
 
             //<-----------------------------------USING ARRAYS---------------------------------->
 
-  
             //accessing values from array (uses zero based indexing)
             Console.WriteLine(progLangs[0]);
 
@@ -42,7 +47,7 @@ namespace ArraysBasics {
 
             //loop through an array using foreach loop
             foreach (string i in progLangs) {
-                Console.Write(i+", ");
+                Console.Write(i + ", ");
             }
 
             Console.WriteLine(" ");
@@ -59,7 +64,7 @@ namespace ArraysBasics {
             Console.WriteLine(" ");
 
             Array.Sort(numbers);
-            for (int i = 0; i < numbers.Length; i++) {
+            foreach (int i in numbers) {
                 Console.Write(numbers[i] + ", ");
             }
 

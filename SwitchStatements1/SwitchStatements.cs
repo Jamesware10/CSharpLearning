@@ -1,7 +1,10 @@
 ﻿using System;
 
-namespace ConditionStatementsBasics {
+namespace SwitchStatements {
 
+    /// <summary>
+    /// Explains what a switch statement is and demonstrates its use case.
+    /// </summary>
     internal class SwitchStatements {
 
         private static void Main(string[] args) {

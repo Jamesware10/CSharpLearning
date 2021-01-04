@@ -1,14 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace LoopingBasics {
-    class ForLoops {
-        static void Main(string[] args) {
 
-            /* For loops executes a block of code a specified number of times.*/ 
+    /// <summary>
+    /// Explains what for loops are as well as demonstrate a use case.
+    /// </summary>
+    internal class ForLoops {
 
- 
+        private static void Main(string[] args) {
+            /* For loops executes a block of code a specified number of times.*/
+
             Console.Write("Please enter a number: ");
             int iterations = Convert.ToInt32(Console.ReadLine());
             int n = 0;
@@ -16,7 +17,6 @@ namespace LoopingBasics {
             int n3 = 0;
 
             for (int i = 0; i <= iterations; ++i) {
-
                 n3 = n + n2;
 
                 Console.WriteLine(n);
@@ -24,7 +24,6 @@ namespace LoopingBasics {
                 n = n2;
                 n2 = n3;
             }
-
 
             Console.WriteLine(" ");     //spacing
 

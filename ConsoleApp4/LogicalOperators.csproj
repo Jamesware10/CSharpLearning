@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,8 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="InputAndOutputBasics.cs" />
-    <Compile Remove="Program.cs" />
+    <Compile Remove="LogicalOperators.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LogicalOperators.cs" />
   </ItemGroup>
 
 </Project>

@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LoopingBasics {
+    /// <summary>
+    /// Explains what while loops are as well as demonstrate a use case.
+    /// </summary>
     class WhileLoops {
         static void Main(string[] args) {
 

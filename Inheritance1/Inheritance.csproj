@@ -6,8 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="InputAndOutputBasics.cs" />
-    <Compile Remove="Program.cs" />
+    <Compile Remove="Animal.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Animal.cs" />
   </ItemGroup>
 
 </Project>

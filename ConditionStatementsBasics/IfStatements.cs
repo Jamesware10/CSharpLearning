@@ -1,9 +1,10 @@
 ﻿using System;
 
-namespace ConditionStatementsBasics {
-
-    internal class IfStatements {
-
+namespace IfStatements {
+    /// <summary>
+    /// Explains the different aspects of if statements as well as demonstrates their functions
+    /// </summary>
+    class IfStatements {
         private static void Main(string[] args) {
             /*'If statements' are used to check whether certain conditions
             *return true or false and executes a block of code if the condition

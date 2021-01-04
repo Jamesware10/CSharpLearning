@@ -9,8 +9,4 @@
     <Compile Remove="WhileLoops.cs" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="WhileLoops.cs" />
-  </ItemGroup>
-
 </Project>
